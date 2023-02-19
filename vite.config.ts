@@ -2,6 +2,7 @@ import dts from "vite-plugin-dts";
 import {resolve} from 'path'
 import {defineConfig} from 'vite'
 
+// noinspection JSUnusedGlobalSymbols
 export default defineConfig({
   plugins: [
     dts({
