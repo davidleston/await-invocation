@@ -1,6 +1,6 @@
 {
   "name": "await-invocation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides the ability to await until a function has been invoked. Created to help test asynchronous functions without having to wait for them to finish, namely Temporal.io workflows.",
   "keywords": ["Temporal", "Temporal.io", "await", "promises", "function", "invoke", "invocation"],
   "homepage": "https://github.com/davidleston/await-invocation#readme",
@@ -20,7 +20,7 @@
   "files": ["dist"],
   "main": "./dist/await-invocation.umd.cjs",
   "module": "./dist/await-invocation.js",
-  "types": "./dist/await-invocations.d.ts",
+  "types": "./dist/await-invocation.d.ts",
   "scripts": {
     "build": "tsc && vite build",
     "test": "vitest",
